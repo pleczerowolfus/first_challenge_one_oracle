@@ -1,0 +1,77 @@
+@media only screen and (max-width: 768px) {
+    .encryptor{
+        flex-direction: column;
+    }
+    .encryptor div#input{
+        padding: initial;
+        width: 100%;
+    }
+
+    .encryptor div#input > img{
+        padding: initial;
+        margin-left: -35px;
+    }
+
+    .encryptor textarea{
+        margin-top: 35px;
+        width: 100% !important;
+    }
+
+    #result{
+        width: 100% !important;
+        height: max-content !important
+    }
+
+    #found-result{
+        height: 85%;
+    }
+
+    #result h2{
+        font-size: 1rem;
+        width: 100% !important;
+    }
+    #footer-encryptor{
+        width: 100%;
+    }
+    .buttons{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .buttons > button{
+        width: 45%;
+    }
+    .encryptor div#result > #not-found > div{
+        padding: 20px;
+    }
+    #result{
+        padding: 0px !important;
+        margin-top: 55px;
+    }
+
+    #result p{
+        font-size: 0.8rem;
+        width: 100% !important;
+    }
+
+
+    #not-found img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body{
+        padding: 10px
+    }
+    .buttons{
+        flex-direction:column
+    }
+    .encryptor div#result > #not-found > div{
+        padding: 20px;
+    }
+    .buttons > button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
